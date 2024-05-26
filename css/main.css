@@ -1,0 +1,19 @@
+@import "./setting.css";
+@import "./header/header.css";
+@import "./story/story.css";
+@import "./slider/slider.css";
+@import "./boxes/box.css";
+@import"./amazing/amazing.css";
+@import"./supermarket/market.css";
+@import "./discount/discount.css";
+@import "./grouping/grouping.css";
+@import "./discount/discount1.css";
+@import "./offers/offers.css";
+@import "./brands/brand.css";
+@import "./digiplus/digiplus.css";
+@import"./offers/picture.css";
+@import"./digiclub/digiclub.css";
+@import"./readings/reading.css";
+@import"./footer/footer.css";
+@import"./bestsell/bestsell.css";
+@import"./login.css/login.css"

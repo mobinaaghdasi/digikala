@@ -1,0 +1,1071 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+   <!--make project-->
+   <div class="wrapper">
+    <!--header-->
+    <header>
+        <div class="header__top">
+            <img src="./images/header.jpg"alt="">
+        </div>
+        <div class="header__center">
+            <div class="header__center__logo">
+                <svg xmlns="http://www.w3.org/2000/svg" width="115" height="30" viewBox="0 0 115 30">
+                    <g fill="none" fill-rule="evenodd">
+                        <g fill="#EE384E">
+                            <g>
+                                <g>
+                                    <path d="M76.916 19.024h6.72v-8.78h-6.72c-1.16 0-2.24 1.061-2.24 2.195v4.39c0 1.134 1.08 2.195 2.24 2.195zm26.883 0h6.72v-8.78h-6.72c-1.16 0-2.24 1.061-2.24 2.195v4.39c0 1.134 1.08 2.195 2.24 2.195zM88.117 6.951v15.366c0 .484-.625 1.098-1.12 1.098l-2.24.023c-.496 0-1.12-.637-1.12-1.12v-.733l-1.017 1.196c-.31.413-1.074.634-1.597.634h-4.107c-3.604 0-6.721-3.063-6.721-6.586v-4.39c0-3.523 3.117-6.585 6.72-6.585h10.082c.495 0 1.12.613 1.12 1.097zm26.883 0v15.366c0 .484-.624 1.098-1.12 1.098l-2.24.023c-.496 0-1.12-.637-1.12-1.12v-.733l-1.017 1.196c-.31.413-1.074.634-1.597.634h-4.107c-3.604 0-6.721-3.063-6.721-6.586v-4.39c0-3.523 3.117-6.585 6.72-6.585h10.082c.495 0 1.12.613 1.12 1.097zm-74.675 3.293h-6.721c-1.16 0-2.24 1.061-2.24 2.195v4.39c0 1.134 1.08 2.195 2.24 2.195h6.72v-8.78zm4.48-3.293V23.78c0 3.523-3.117 6.22-6.72 6.22H34.62c-.515 0-1-.236-1.311-.638l-1.972-2.55c-.327-.424-.144-1.202.399-1.202h6.347c1.16 0 2.24-.696 2.24-1.83v-.365h-6.72c-3.604 0-6.72-3.063-6.72-6.586v-4.39c0-3.523 3.116-6.585 6.72-6.585h4.107c.514 0 1.074.405 1.437.731l1.177 1.098V6.95c0-.483.625-1.097 1.12-1.097h2.24c.496 0 1.12.613 1.12 1.097zM4.481 16.83c0 1.134 1.08 2.195 2.24 2.195h6.72v-8.78h-6.72c-1.16 0-2.24 1.061-2.24 2.195v4.39zM16.8 0c.497 0 1.121.613 1.121 1.098v21.22c0 .483-.624 1.097-1.12 1.097h-2.24c-.496 0-1.12-.613-1.12-1.098v-.732l-1.175 1.232c-.318.346-.932.598-1.44.598H6.722C3.117 23.415 0 20.352 0 16.829v-4.356c0-3.523 3.117-6.62 6.72-6.62h6.722V1.099c0-.485.624-1.098 1.12-1.098h2.24zm46.3 14.634L69.336 6.9c.347-.421.04-1.048-.513-1.048h-3.566c-.27 0-.525.119-.696.323l-6.314 7.727V1.098c0-.485-.625-1.098-1.12-1.098h-2.24c-.496 0-1.12.613-1.12 1.098v21.22c0 .483.624 1.097 1.12 1.097h2.24c.495 0 1.12-.614 1.12-1.098v-6.951l6.317 7.744c.17.207.428.328.7.328h3.562c.554 0 .86-.627.514-1.048l-6.24-7.756zM48.166 0c-.496 0-1.12.613-1.12 1.098v2.195c0 .484.624 1.097 1.12 1.097h2.24c.495 0 1.12-.613 1.12-1.097V1.098c0-.485-.625-1.098-1.12-1.098h-2.24zm0 5.854c-.496 0-1.12.613-1.12 1.097v15.366c0 .484.8 1.12 1.295 1.12l2.065-.022c.495 0 1.12-.614 1.12-1.098V6.951c0-.484-.625-1.097-1.12-1.097h-2.24zM21.282 0c-.495 0-1.12.613-1.12 1.098v2.195c0 .484.625 1.097 1.12 1.097h2.24c.496 0 1.12-.613 1.12-1.097V1.098c0-.485-.624-1.098-1.12-1.098h-2.24zm0 5.854c-.495 0-1.12.613-1.12 1.097v15.366c0 .484.625 1.098 1.12 1.098h2.24c.496 0 1.12-.614 1.12-1.098V6.951c0-.484-.624-1.097-1.12-1.097h-2.24zm73.556-4.756v21.22c0 .483-.625 1.097-1.12 1.097h-2.24c-.496 0-1.12-.614-1.12-1.098V1.097c0-.484.624-1.097 1.12-1.097h2.24c.495 0 1.12.613 1.12 1.098z" transform="translate(-1235 -19) translate(-238) translate(1473 19)"/>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </svg>
+            </div>
+            <div class="header__center__search">
+                <input type="text" name="search" placeholder="جستجو" />
+            </div>
+            <div class="header__center__login">
+                <a href="./login.html">
+                    <svg style="width: 24px; height: 24px; fill: var(--color-icon-high-emphasis);">
+                        <path fill-rule="evenodd" d="M16 15h-2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V7a2 2 0 012-2h6a2 2 0 012 2v2h2V7a4 4 0 00-4-4H6a4 4 0 00-4 4v10a4 4 0 004 4h6a4 4 0 004-4v-2zm6-4H9.414l2.293-2.293-1.414-1.414-4 4a1 1 0 000 1.414l4 4 1.414-1.414L9.414 13H22v-2z" clip-rule="evenodd"></path>
+                    </svg>
+                    ورود <span></span>ثبت نام 
+                </a>
+                <span class="line"></span>
+             <a class="cart" href="#">
+                <svg style="width: 24px; height: 24px; fill: var(--color-icon-high-emphasis);">
+                    <path fill-rule="evenodd" d="M20 4h2V2h-3a1 1 0 00-1 1v1H3a1 1 0 00-.995 1.1l1 10A1 1 0 004 16h15a1 1 0 001-1V4zm-2 17a2 2 0 110-4 2 2 0 010 4zM5 21a2 2 0 110-4 2 2 0 010 4zm13-7V6H4.105l.8 8H18z" clip-rule="evenodd"></path>
+                </svg>
+             </a>
+            </div>
+        </div>
+        <div class="header__menu">
+            <div class="right">
+                <nav>
+                    <div><a href="#" class="active">
+
+                        <svg style="width: 20px; height: 20px; fill: var(--color-icon-high-emphasis);">
+                            <path fill-rule="evenodd" d="M19 8V6H5v2h14zm0 3v2H5v-2h14zm0 5v2H5v-2h14z" clip-rule="evenodd"></path>
+                        </svg>
+                     دسته بندی کالاها
+                    </a></div>
+                    <div><a href="#">شگفت انگیزها</a></div>
+                    <div><a href="#">سوپر مارکت</a></div>
+                    <div><a href="#">کارت هدیه</a></div>
+                    <div><a href="#">پرفروش ترین ها</a></div>
+                    <div><a href="#"> تخفیف هاوپیشنهادها</a></div>
+                    <div><a href="#"> سوالی دارید</a></div>
+                    <div><a href="#">در دیجی کالا بفروشید!</a></div>
+                </nav>
+            </div>
+            <div class="left">
+            <h5>
+                <svg style="width: 20px; height: 20px; fill: var(--color-icon-high-emphasis);">
+                    <path fill-rule="evenodd" d="M4 9.611C4 5.391 7.59 2 12 2s8 3.39 8 7.611c0 2.818-1.425 5.518-3.768 8.034a23.496 23.496 0 01-2.514 2.322c-.517.413-.923.706-1.166.867L12 21.2l-.552-.366c-.243-.16-.65-.454-1.166-.867a23.499 23.499 0 01-2.514-2.322C5.425 15.129 4 12.428 4 9.61zm8.47 8.794c.784-.627 1.569-1.34 2.298-2.124C16.8 14.101 18 11.827 18 9.611 18 6.521 15.33 4 12 4S6 6.522 6 9.611c0 2.215 1.2 4.49 3.232 6.67A21.536 21.536 0 0012 18.769c.148-.111.305-.233.47-.364zM12 14a4.001 4.001 0 010-8 4.001 4.001 0 010 8zm0-2a2.001 2.001 0 000-4 2.001 2.001 0 000 4z" clip-rule="evenodd"></path>
+                </svg>
+                لطفا شهر خودرا انتخاب کنید
+            </h5>
+            </div>
+        </div>
+
+    </header>
+    <!--end header-->
+    <!--story-->
+    <div class="story">
+        <div class="story__center">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div>
+                    <img src="./images/story/story1.png" alt="">
+                    <p>مشاوره خرید کالای الکترونیک</p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div>
+                        <img src="./images/story/story2.jpg" alt="">
+                        <p>میکروفون زیر دو میلیون میخوای؟</p>
+                        </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div>
+                        <img src="./images/story/story3.jpg" alt="">
+                        <p>مته همه کاره برای خونه و کارگاه</p>
+                        </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div>
+                        <img src="./images/story/story4.jpg" alt="">
+                        <p>ظرف سرو برای سالاد میخواستی؟</p>
+                        </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div>
+                        <img src="./images/story/story5.jpg" alt="">
+
+                     <p>لوسیون کودک <<ژوت>></p>
+                        </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div>
+                        <img src="./images/story/story6.jpg" alt="">
+                        <p>برای نوشتن اماده شو</p>
+                        </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div>
+                        <img src="./images/story/story7.jpg" alt="">
+                        <p>شرح مختصر یک احوال</p>
+                        </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div>
+                        <img src="./images/story/story8.jpg" alt="">
+                        <p>حسگر های ردمی واچ3 چه قدر....</p>
+                        </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div>
+                        <img src="./images/story/story9.jpg" alt="">
+                        <p>چند مدل عینک شب با قیمت....</p>
+                        </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div>
+                        <img src="./images/story/story10.jpg" alt="">
+                        <p> ؟پرفروش ترین تی شرت</p>
+                        </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div>
+                        <img src="./images/story/story11.jpg" alt="">
+                        <p> کتاب قهرمان در ماموریت</p>
+                        </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div>
+                        <img src="./images/story/story12.jpg" alt="">
+                        <p>قهوه سازت نترکه یه وقت؟</p>
+                        </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div>
+                        <img src="./images/story/story13.jpg" alt="">
+                        <p> پودر تثبیت کننده فلورمار</p>
+                        </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div>
+                        <img src="./images/story/story11.jpg" alt="">
+                        <p> کتاب قهرمان در ماموریت</p>
+                        </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div>
+                        <img src="./images/story/story12.jpg" alt="">
+                        <p>قهوه سازت نترکه یه وقت؟</p>
+                        </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div>
+                        <img src="./images/story/story12.jpg" alt="">
+                        <p>قهوه سازت نترکه یه وقت؟</p>
+                        </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div>
+                        <img src="./images/story/story12.jpg" alt="">
+                        <p>قهوه سازت نترکه یه وقت؟</p>
+                        </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div>
+                        <img src="./images/story/story12.jpg" alt="">
+                        <p>قهوه سازت نترکه یه وقت؟</p>
+                        </div>
+                  </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+              </div>
+        </div>
+    </div>
+    <!--end story-->
+    <!--slider-->
+    <div class="slider">
+        <div class="swiper mySlider">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="./images/slider/slider1.jpg" alt="">
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/slider/slider2.jpg" alt="">
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/slider/slider3.jpg" alt="">
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/slider/slider4.jpg" alt="">
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/slider/slider5.jpg" alt="">
+              </div>
+            </div>
+            <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+    </div>
+    
+    <!--end slider-->
+    <!--box-->
+    <div class="main-box">
+      <div class="center-box">
+        <div class="box-picture">
+          <img src="./images/box/box1.jpg" alt="">
+          <h5>دیجی کالا جت</h5>
+        </div>
+        <div class="box-picture">
+          <img src="./images/box/box2.png" alt="">
+          <h5>دیجی پی</h5>
+        </div>
+        <div class="box-picture">
+          <img src="./images/box/box3.png" alt="">
+          <h5>حراج استایل</h5>
+        </div>
+        <div class="box-picture">
+          <img src="./images/box/box4.jpg" alt="">
+          <h5>حراج ماه رمضان</h5>
+        </div>
+        <div class="box-picture">
+          <img src="./images/box/box5.jpg" alt="">
+          <h5>موبایل کارکرده</h5>
+        </div>
+        <div class="box-picture">
+          <img src="./images/box/box6.jpg" alt="">
+          <h5>خرید چکی</h5>
+        </div>
+        <div class="box-picture">
+          <img src="./images/box/box7.png" alt="">
+          <h5>گیم نت</h5>
+        </div>
+        <div class="box-picture">
+          <svg style="width: 40px; height: 40px; fill: var(--color-icon-low-emphasis);">
+            <path fill-rule="evenodd" d="M16 12c0 1.1.9 2 2 2s2-.9 2-2-.9-2-2-2-2 .9-2 2zm-4-2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm-8 2c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2z" clip-rule="evenodd"></path>
+          </svg>
+          <h5 class="more">بیشتر</h5>
+        </div>
+      </div>
+    </div>
+    <!--end box-->
+    <!--amazing-->
+    <div class="amazing">
+      <div class="amazing__center">
+        <div class="swiper myamazing">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide active__amazing">
+              <img src="./images/svg/amazing.svg" alt="">
+              <img src="./images/amazing/box.png" alt="">
+              <a href="#"> مشاهده همه</a>
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/amazing/phone1.jpg" class="image__amazing" alt="">
+              <div class="price">
+                <span>3490000</span>
+                <span class="percentage">4%</span>
+              </div>
+              <div class="discount">4095000</div>
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/amazing/phone2.jpg" class="image__amazing" alt="">
+              <div class="price">
+                <span>3490000</span>
+                <span class="percentage">4%</span>
+              </div>
+              <div class="discount">4095000</div>
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/amazing/phone3.jpg" class="image__amazing" alt="">
+              <div class="price">
+                <span>3490000</span>
+                <span class="percentage">4%</span>
+              </div>
+              <div class="discount">4095000</div>
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/amazing/phone1.jpg" class="image__amazing" alt="">
+              <div class="price">
+                <span>3490000</span>
+                <span class="percentage">4%</span>
+              </div>
+              <div class="discount">4095000</div>
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/amazing/phone2.jpg" class="image__amazing" alt="">
+              <div class="price">
+                <span>3490000</span>
+                <span class="percentage">4%</span>
+              </div>
+              <div class="discount">4095000</div>
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/amazing/phone3.jpg" class="image__amazing" alt="">
+              <div class="price">
+                <span>3490000</span>
+                <span class="percentage">4%</span>
+              </div>
+              <div class="discount">4095000</div>
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/amazing/phone1.jpg" class="image__amazing" alt="">
+              <div class="price">
+                <span>3490000</span>
+                <span class="percentage">4%</span>
+              </div>
+              <div class="discount">4095000</div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+        </div>
+      </div>
+    </div>
+    <!--end amazing-->
+    <!--supermarket-->
+    <div class="supermarket">
+      <div class="market__center">
+      <div class="market__right">
+        <img src="./images/supermarket/fresh.png" alt="">
+        <img src="./images/svg/fresh.svg" alt="">
+      <div> <h4> تا 25% تخفیف</h4> </div>
+    </div>
+      <div class="market__left">
+        <div class="picture">
+          <img src="./images/supermarket/soda1.png" alt="">
+        </div>
+        <div class="picture">
+          <img src="./images/supermarket/soda2.png" alt="">
+        </div>
+        <div class="picture">
+          <img src="./images/supermarket/picture3.png" alt="">
+        </div>
+        <div class="picture">
+          <img src="./images/supermarket/picture4.png" alt="">
+        </div>
+        <div class="picture">
+          <img src="./images/supermarket/picture5.png" alt="">
+        </div>
+        <div class="picture">
+          <img src="./images/supermarket/picture6.png" alt="">
+        </div>
+        <div class="more"> <a href="#"> بیش از 90 کالا</a></div>
+      </div>
+    </div>
+    </div>
+    <!--end supermarket-->
+     <!--discount-->
+     <div class="discount">
+      <div class="discount__center">
+      <div>
+        <img src="./images/discount/child.png" alt="">
+      </div>
+      <div>
+        <img src="./images/discount/clothes.png" alt="">
+      </div>
+      <div>
+        <img src="./images/discount/cream.png" alt="">
+      </div>
+      <div>
+        <img src="./images/discount/discount.png" alt="">
+      </div>
+    </div>
+     </div>
+     <!--end discount-->
+     <!-- grouping -->
+     <div class="grouping">
+      <div class="grouping__center">
+        <h4>خرید بر اساس دسته بندی</h4>
+        <div class="grouping1">
+            <!-- Swiper -->
+  <div class="swiper mygrouping">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="text">
+          <img src="./images/grouping/aba1e5dca8958ac1176e25cd194ff8ac.png" alt="">
+          <p> موبایل</p>
+          
+        </div>
+      </div>
+      <div class="swiper-slide"><div class="text">
+        <img src="./images/grouping/2.png" alt="">
+        <p>کالای دیجیتال</p>
+      </div></div>
+      <div class="swiper-slide"><div class="text">
+        <img src="./images/grouping/3.png" alt="">
+        <p>خانه و اشپز خانه</p>
+      </div></div>
+      <div class="swiper-slide"><div class="text">
+        <img src="./images/grouping/4.png" alt="">
+        <p> لوازم خانگی برقی</p>
+      </div></div>
+      <div class="swiper-slide"><div class="text">
+        <img src="./images/grouping/5.png" alt="">
+        <p>مد و پوشاک</p>
+      </div></div>
+      <div class="swiper-slide">
+        <div class="text">
+          <img src="./images/grouping/6.png" alt="">
+          <p> ساعت طلاوجواهرات</p>
+        </div>
+      </div>
+      <div class="swiper-slide"><div class="text">
+        <img src="./images/grouping/7.png" alt="">
+        <p> زیبایی و سلامت</p>
+      </div></div>
+    </div>
+  </div>
+
+  <!-- Swiper JS -->
+        </div>
+    <div class="grouping2">
+        <!-- Swiper -->
+  <div class="swiper mygrouping">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="text">
+          <img src="./images/grouping/14.png" alt="">
+          <p> کالاهای سوپرمارکتی</p>
+        </div>
+      </div>
+      <div class="swiper-slide"> 
+        <div class="text">
+          <img src="./images/grouping/8.png" alt="">
+          <p> کتاب لوازم التحریر و هنر</p>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="text">
+          <img src="./images/grouping/9.png" alt="">
+          <p> اسباب بازی کودک و نوزاد</p>
+        </div>
+      </div>
+      <div class="swiper-slide"><div class="text">
+        <img src="./images/grouping/10.png" alt="">
+        <p> ابزار الات و تجهیزات</p>
+      </div></div>
+      <div class="swiper-slide">
+        <div class="text">
+          <img src="./images/grouping/11.png" alt="">
+          <p>خودرو و موتور سیکلت</p>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="text">
+          <img src="./images/grouping/12.png" alt="">
+          <p>ورزش و سفر</p>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="text">
+          <img src="./images/grouping/13.png" alt="">
+          <p>محصولات بومی و محلی</p>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+
+  <!-- Swiper JS -->
+    </div>
+      </div>
+     </div>
+     <!-- end grouping -->
+     <!-- discount1 -->
+     <div class="discount1">
+      <div class="discount__picture">
+        <img src="./images/discount/rice.png" alt="">
+        <img src="./images/discount/coffee.png" alt="">
+
+      </div>
+     </div>
+     <!-- end discount1 -->
+     <!-- offers -->
+     <div class="digikala__offer">
+      <h4>پیشنهاد دیجی کالا</h4>
+      <div class="center__offer">
+        <div class="top">
+          <div class="border">
+            <img src="./images/offers/1.png" alt="">
+            <h4>گوشی موبایل</h4>
+          </div>
+          <div class="border">
+            <img src="./images/offers/2.png" alt="">
+            <h4>ساعت هوشمند</h4>
+          </div>
+          <div class="border"> 
+            <img src="./images/offers/3.png" alt="">
+            <h4>کنسول خانگی</h4>
+          </div>
+          <div class="border">
+            <img src="./images/offers/4.png" alt="">
+            <h4>اسپیکر</h4>
+          </div>
+          <div class="border"> 
+            <img src="./images/offers/5.png" alt="">
+            <h4> تلویزیون</h4>
+          </div>
+          <div class="border">
+            <img src="./images/offers/6.png" alt="">
+            <h4>سرخ کن</h4>
+          </div>
+          <div>
+            <img src="./images/offers/7.png" alt="">
+            <h4> جوراب زنانه</h4>
+          </div>
+        </div>
+        <div class="bottom">
+       <div class="border">
+        <img src="./images/offers/8.jpg" alt="">
+        <h4> هدفون هدست و...</h4>
+       </div>
+       <div class="border">
+        <img src="./images/offers/7.png" alt="">
+        <h4> جوراب مردانه</h4>
+       </div>
+       <div class="border">
+        <img src="./images/offers/10.png" alt="">
+        <h4> تبلت</h4>
+       </div>
+       <div class="border">
+        <img src="./images/offers/11.png" alt="">
+        <h4> لپ تاب</h4>
+       </div>
+       <div class="border">
+        <img src="./images/offers/12.png" alt="">
+        <h4>اصلاح موی صورت</h4>
+       </div>
+       <div class="border">  <img src="./images/offers/13.png" alt="">
+        <h4> یخچال وفریزر</h4>
+      </div>
+       <div>
+        <img src="./images/offers/14.png" alt="">
+        <h4> چندراهی برق و محافظ</h4>
+       </div>
+        </div>
+      </div>
+     </div>
+     <!-- end offers -->
+     <!-- brands -->
+     <div class="brand">
+      <div class="center__brand">
+        <h4> محبوب ترین برندها</h4>
+         <!-- Swiper -->
+  <div class="swiper mybrands">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <a href="#">
+          <img src="./images/brands/pril.png" alt="">
+        </a>
+
+      </div>
+      <div class="swiper-slide">
+        <a href="#">
+          <img src="./images/brands/persil.png" alt="">
+        </a>
+        
+      </div>
+      <div class="swiper-slide">
+        <a href="#">
+          <img src="./images/brands/kingstar.png" alt="">
+        </a>
+      
+      </div>
+      <div class="swiper-slide">
+        <a href="#">
+          <img src="./images/brands/mahya.png" alt="">
+        </a>
+        <h4></h4>
+      </div>
+      <div class="swiper-slide">
+        <a href="#">
+          <img src="./images/brands/pegah.png" alt="">
+        </a>
+        <h4></h4>
+      </div>
+      <div class="swiper-slide">
+        <a href="#">
+          <img src="./images/brands/panter.png" alt="">
+        </a>
+        <h4></h4>
+      </div>
+      <div class="swiper-slide">
+        <a href="#">
+          <img src="./images/brands/huawei.png" alt="">
+        </a>
+        
+      </div>
+      <div class="swiper-slide">
+        <a href="#">
+          <img src="./images/brands/pakshoma.png" alt="">
+        </a>
+        
+      </div>
+      <div class="swiper-slide">
+        <a href="#">
+          <img src="./images/brands/zarin.png" alt="">
+        </a>
+        
+      </div>
+      <div class="swiper-slide">
+        <a href="#">
+          <img src="./images/brands/kale.png" alt="">
+        </a>
+      
+      </div>
+      <div class="swiper-slide">
+        <a href="#">
+          <img src="./images/brands/my.png" alt="">
+        </a>
+      
+      </div>
+      <div class="swiper-slide">
+        <a href="#">
+          <img src="./images/brands/mahya.png" alt="">
+        </a>
+        
+      </div>
+      <div class="swiper-slide">
+        <a href="#">
+          <img src="./images/brands/persil.png" alt="">
+        </a>
+        
+      </div>
+      <div class="swiper-slide">
+        <a href="#">
+          <img src="./images/brands/active.png" alt="">
+        </a>
+        
+      </div>
+      <div class="swiper-slide">
+        <a href="#">
+          <img src="./images/brands/pril.png" alt="">
+        </a>
+        
+      </div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+        <!-- Swiper JS -->
+      </div>
+     </div>
+     <!-- end brands -->
+     <!-- digiplus -->
+     <div class="digiplus">
+      <div class="center__plus">
+        <div class="right__plus">
+          <h6>digiplus</h6>
+          <h3>خدمات ویژه برای اعضای دیجی پلاس</h3>
+          <a href="#">عضویت</a>
+        </div>
+        <div class="left__plus">
+          <div class="top__plus">
+            <h2>ارسال فوری رایگان</h2>
+            <a href="#">مشاهده همه ></a>
+          </div>
+          <div class="picture__plus">
+          <div class="picture__plus1">
+            <div>
+              <img src="./images/digiplus/phone.png" alt="">
+            </div>
+            <div>
+              <img src="./images/digiplus/2113921.png" alt="">
+            </div>
+            <div>
+              <img src="./images/digiplus/3.png" alt="">
+            </div>
+            <div>
+              <img src="./images/digiplus/96cc6a20198b2985332be1f19ebcf36e.png" alt="">
+            </div>
+            <div>
+              <img src="./images/digiplus/water.png" alt="">
+            </div>
+            <div>
+              <img src="./images/digiplus/6.png" alt="">
+            </div>
+          </div>
+          <div class="picture__plus2">
+            <div>
+              <img src="./images/digiplus/7.png" alt="">
+            </div>
+            <div>
+              <img src="./images/digiplus/8.png" alt="">
+            </div>
+            <div>
+              <img src="./images/digiplus/9.png" alt="">
+            </div>
+            <div>
+              <img src="./images/digiplus/10.png" alt="">
+            </div>
+            <div>
+              <img src="./images/digiplus/11.png" alt="">
+            </div>
+              <div>
+                <img src="./images/digiplus/12.png" alt="">
+              </div>
+            </div>
+          </div>
+         
+        </div>
+      </div>
+     </div>
+     <!-- end digiplus -->
+     <!-- picture -->
+     <div class="parent">
+      <div>
+        <img src="./images/offers/my baby.jpg" alt="">
+      </div>
+      <div>
+        <img src="./images/offers/oxygen.jpg" alt="">
+      </div>
+     </div>
+     <!-- end picture -->
+     <!-- bestseller -->
+     <div class="bestsell">
+      <div class="bestcenter">
+      <div class="bestsell__top">
+        <h2>پرفروش ترین کالا ها</h2>
+        <a href="#">مشاهده همه</a>
+      </div>
+      <div class="bestsell_center">
+        <div>
+          <img src="./images/bestsell/1.jpg" alt="">
+          <h4>1</h4>
+          <p>کاغذ A4 کپی مکس مدل KNS بسته 500 عددی</p>
+
+        </div>
+        <div>
+          <img src="./images/bestsell/2.jpg" alt="">
+          <h4>2</h4>
+          <p>کالباس 90 درصد گوشت مرغ مهيا پروتئين - 250 گرم</p>
+        </div>
+        <div>
+          <img src="./images/bestsell/3.jpg" alt="">
+          <h4>3</h4>
+          <p>گوشی-موبایل-نوکیا-مدل-105-2023-دو-سیم-کارت</p>
+        </div>
+        <div>
+          <img src="./images/bestsell/4.jpg" alt="">
+          <h4>4</h4>
+          <p>پنیر سفید ایرانی پگاه - 400 گرم</p>
+        </div>
+        <div>
+          <img src="./images/bestsell/5.jpg" alt="">
+          <h4>5</h4>
+          <p>پنیر خامه ای ویلی کاله - 350 گرم</p>
+        </div>
+        <div>
+          <img src="./images/bestsell/6.jpg" alt="">
+          <h4>6</h4>
+          <p>پودر مخلوط قهوه فوری 3 در 1 کلاسیک نسکافه - 20 گرم بسته 26 عددی	</p>
+        </div>
+        <div>
+          <img src="./images/bestsell/7.jpg" alt="">
+          <h4>7</h4>
+          <p>سردست منجمد گوساله پویا پروتئین - 1 کیلوگرم</p>
+        </div>
+        <div>
+          <img src="./images/bestsell/8.jpg" alt="">
+          <h4>8</h4>
+          <p>گوشی موبایل سامسونگ مدل Galaxy A15 دو سیم کارت ظرفیت 128 گیگابایت و رم 4 گیگابایت - ویتنام</p>
+        </div>
+        <div>
+          <img src="./images/bestsell/9.jpg" alt="">
+          <h4>9</h4>
+          <p>خامه-صبحانه-کاله-200-میلی-لیتر</p>
+        </div>
+        <div>
+          <img src="./images/bestsell/10.jpg" alt="">
+          <h4>10</h4>
+          <p>کافی میکس بدون قند 2 در1 رژیمی نسکافه - 11 گرم بسته 20 عددی</p>
+        </div>
+        <div>
+          <img src="./images/bestsell/11.jpg" alt="">
+          <h4>11</h4>
+          <p>
+            پودر ماشین لباسشویی سافتلن سری Gold Selection مدل Perfect And Shine مقدار 500 گرم
+          </p>
+        </div>
+        <div>
+          <img src="./images/bestsell/12.jpg" alt="">
+          <h4>12</h4>
+          <p>کپسول هیرویت هلث اید بسته 30 عددی</p>
+        </div>
+
+      </div>
+    </div>
+     </div>
+     <!-- end bestseller -->
+     <!-- digi club -->
+     <div class="digiclub">
+      <div class="icon">
+      <img src="./images/digiclub/digiclub-logo-white.png" alt="">
+    </div>
+    <div class="wrapper">
+      <div>
+        <img src="./images/digiclub/wheel-spinner.jpg" alt="">
+        <h6>چرخ و بخت</h6>
+      </div>
+      <div>
+        <img src="./images/digiclub/missions.jpg" alt="">
+        <h6>ماموریت ها</h6>
+      </div>
+      <div>
+        <img src="./images/digiclub/awards.png" alt="">
+        <h6>جایزه ها</h6>
+      </div>
+    </div>
+
+     </div>
+     <!-- end digiclub -->
+     <!-- readings -->
+     <div class="readings">
+      <div class="reading__center">
+        <div>
+          <h6>خواندنی ها</h6>
+          <a href="#">
+            مطالب بیشتر در دیجی کالا مگ >
+          </a>
+        </div>
+        <div class="product">
+         
+          <div>
+            <img src="./images/readings/02-1.jpg" alt="">
+            <p>
+              بررسی هدفون سونی WF-1000XM5؛ یک شاهکار تمام‌عیار!
+            </p>
+          </div>
+          <div>
+            <img src="./images/readings/02.23.jpg" alt="">
+            <p>
+              آیا تبلت گلکسی تب A8 می‌تواند بازی‌های سنگین را اجرا کند؟
+            </p>
+          </div>
+          <div>
+            <img src="./images/readings/Best-Redmi-Note-13-Pro-Plus-9.jpg" alt="">
+            <p>
+              ۸ کاور برتر ردمی نوت ۱۳ پرو پلاس شیائومی؛ مدل‌های شیک برای سلیقه‌های مختلف
+            </p>
+          </div>
+          <div>
+            <img src="./images/readings/02.17-6.jpg" alt="">
+            <p>
+              بررسی شلوار جین مردانه پاتن جامه؛ جین کاغذی و ضد چروک
+            </p>
+          </div>
+        </div>
+      </div>
+     </div>
+     <!-- end readings -->
+     <!-- footer -->
+     <div class="footer">
+      <div class="footer1">
+        <div>
+        <img src="./images/footer/digi.png" alt="">
+      </div>
+      <div class="note">
+        <h6>تلفن پشتیبانی 021-61930000</h6>
+        <span></span>
+        <h6>021-91000100</h6>
+        <span></span>
+        <h6>7روز هفته,24 ساعته در خدمت شما هستیم</h6>
+      </div>
+      </div>
+      <div class="footer2">
+        <div>
+          <img src="./images/footer/express-delivery.png" alt="">
+          <h4>
+            امکان تحویل اکسپرس
+          </h4>
+        </div>
+        <div>
+          <img src="./images/footer/cash-on-delivery.png" alt="">
+          <h4>امکان پرداخت درب محل</h4>
+        </div>
+        <div>
+          <img src="./images/footer/support.png" alt="">
+          <h4>
+            7روز هفته 24ساعته
+          </h4>
+        </div>
+        <div>
+          <img src="./images/footer/days-return.png" alt="">
+          <h4>
+           7روز ضمانت برگشت کالا
+          </h4>
+        </div>
+        <div>
+          <img src="./images/footer/original-products.png" alt="">
+          <h4> ضمانت اصل بودن کالا</h4>
+        </div>
+      
+      </div>
+      <div class="footer3">
+        <div>
+          <h2>با دیجی کالا </h2>
+          <a href="#">اتاق خبر در دیجی کالا</a>
+          <a href="#"> فروش در دیجی کالا</a>
+          <a href="#"> فرصت های شغلی</a>
+          <a href="#"> گزارش تخلف در دیجی کالا</a>
+          <a href="#">تماس با دیجی کالا</a>
+          <a href="#">درباره دیجی کالا</a>
+        </div>
+        <div>
+          <h2> خدمات مشتریان</h2>
+          <a href="#"> پاسخ به پرسش های متداول</a>
+          <a href="#"> رویه های بازگرداندن کالا</a>
+          <a href="#"> شرایط استفاده</a>
+          <a href="#">حریم خصوصی</a>
+          <a href="#"> گزارش باگ</a>
+        </div>
+        <div>
+          <h2>راهنمای خرید از دیجی کالا</h2>
+          <a href="#">نحوه ثبت سفارش</a>
+          <a href="#"> رویه ارسال سفارش</a>
+          <a href="#"> شیوه های پرداخت</a>
+        </div>
+        <div class="with-us">
+          <h2>با ما همراه باشید!</h2>
+          <div class="svg">
+          <div>
+            <svg style="width: 40px; height: 40px; fill: var(--color-icon-low-emphasis);">
+              <path fill-rule="evenodd" d="M16.033 3H7.967A4.973 4.973 0 003 7.967v8.066A4.973 4.973 0 007.967 21h8.066A4.973 4.973 0 0021 16.033V7.967A4.973 4.973 0 0016.033 3zm3.37 13.033a3.374 3.374 0 01-3.37 3.37H7.967a3.374 3.374 0 01-3.37-3.37V7.967a3.374 3.374 0 013.37-3.37h8.066a3.374 3.374 0 013.37 3.37v8.066zM7.362 12A4.643 4.643 0 0112 7.362 4.643 4.643 0 0116.638 12 4.643 4.643 0 0112 16.638 4.643 4.643 0 017.362 12zM12 15.041a3.044 3.044 0 01-3.041-3.04A3.045 3.045 0 0112 8.958 3.045 3.045 0 0115.041 12 3.044 3.044 0 0112 15.041zm4.005-8.69c.218-.219.52-.343.828-.343.308 0 .61.124.828.343a1.176 1.176 0 010 1.656c-.218.218-.52.343-.828.343a1.18 1.18 0 01-.828-.343 1.18 1.18 0 01-.343-.828c0-.309.125-.611.343-.828z" clip-rule="evenodd"></path>
+            </svg>
+          </div>
+          <div>
+            <svg style="width: 40px; height: 40px; fill: var(--color-icon-low-emphasis);">
+              <path d="M21 6.73a7.374 7.374 0 01-2.12.581 3.708 3.708 0 001.623-2.041 7.444 7.444 0 01-2.346.896 3.693 3.693 0 00-6.292 3.367 10.483 10.483 0 01-7.61-3.858 3.665 3.665 0 00-.5 1.856 3.69 3.69 0 001.642 3.073 3.692 3.692 0 01-1.673-.464v.046a3.696 3.696 0 002.962 3.621c-.31.083-.636.13-.973.13-.238 0-.47-.024-.695-.07a3.695 3.695 0 003.448 2.565 7.409 7.409 0 01-4.585 1.579c-.298 0-.592-.018-.881-.051a10.437 10.437 0 005.66 1.661c6.793 0 10.506-5.626 10.506-10.505l-.013-.478A7.373 7.373 0 0021 6.73z"></path>
+            </svg>
+          </div>
+          <div>
+            <svg style="width: 40px; height: 40px; fill: var(--color-icon-low-emphasis);">
+              <path fill-rule="evenodd" d="M6.4 4h19.2C26.92 4 28 5.08 28 6.4v19.2c0 1.32-1.08 2.4-2.4 2.4H6.4C5.08 28 4 26.92 4 25.6V6.4C4 5.08 5.08 4 6.4 4zm1.2 20.4h3.6V13.6H7.6v10.8zm1.8-12.84c-1.2 0-2.16-.96-2.16-2.16 0-1.2.96-2.16 2.16-2.16 1.2 0 2.16.96 2.16 2.16 0 1.2-.96 2.16-2.16 2.16zM20.8 24.4h3.6v-6.84c0-2.28-1.92-4.2-4.2-4.2-1.08 0-2.4.72-3 1.68V13.6h-3.6v10.8h3.6v-6.36c0-.96.84-1.8 1.8-1.8.96 0 1.8.84 1.8 1.8v6.36z" clip-rule="evenodd"></path>
+            </svg>
+          </div>
+          <div>
+            <svg style="width: 40px; height: 40px; fill: var(--color-icon-low-emphasis);">
+              <path fill-rule="evenodd" d="M10.58 4.07a5.768 5.768 0 00-.804.33c-.66.324-1.321.978-1.626 1.609-.172.347-.546 1.597-.804 2.667-.029.11.184-.075.781-.671 1.184-1.192 2.31-1.95 3.763-2.546.65-.266 1.92-.625 2.47-.7.168-.024.294-.052.277-.064a28.734 28.734 0 00-1.195-.347c-1.046-.284-1.241-.319-1.856-.342-.494-.017-.781 0-1.005.064zm1.207 2.523a10.498 10.498 0 013.493-.984 10.5 10.5 0 016.877 1.76c2.333 1.573 3.861 3.911 4.436 6.77.149.746.149 2.957 0 3.703-.575 2.859-2.103 5.197-4.436 6.77a10.405 10.405 0 01-10.37.776 10.4 10.4 0 01-5.831-7.899c-.11-.74-.11-2.257 0-2.997a10.399 10.399 0 015.831-7.9zm4.395 5.463c.408-1.592-.643-3.276-2.258-3.611-.994-.209-1.947.086-2.688.827-1.173 1.18-1.178 2.969-.018 4.138 1.615 1.626 4.39.868 4.964-1.354zm5.332-2.142c1.333.348 2.223 1.482 2.223 2.83 0 .874-.247 1.499-.833 2.09-.402.404-.89.682-1.413.81-.724.167-1.333.092-2.04-.261-1.149-.567-1.81-1.898-1.557-3.13.132-.649.35-1.06.816-1.534.603-.608 1.224-.874 2.068-.886.224-.005.558.035.736.081zm-3.982 6.111c0-.463-.27-.885-.706-1.11-1.08-.562-2.264.566-1.758 1.683.155.347.258.457.597.614.902.428 1.867-.186 1.867-1.187zm-5.165.284c.173.029.523.162.776.289 1.149.567 1.81 1.898 1.557 3.13-.132.649-.35 1.06-.816 1.534-.942.955-2.258 1.163-3.464.55-1.546-.787-2.057-2.83-1.069-4.277.66-.954 1.85-1.44 3.016-1.226zm9.813 4.93c.316-1.522-.643-3.055-2.154-3.449a2.991 2.991 0 00-2.838.776 2.935 2.935 0 00.017 4.172c.89.897 2.24 1.11 3.43.532.695-.335 1.379-1.238 1.545-2.031zM23.48 7.212c-.144-.104-.259-.208-.259-.231 0-.024.172.011.39.069.213.058.8.214 1.305.347 1.23.319 1.746.579 2.327 1.152a3.627 3.627 0 011.091 2.639c0 .457-.046.694-.367 1.932a46.007 46.007 0 01-.397 1.435c-.017.012-.057-.167-.098-.399-.235-1.504-.89-3.165-1.723-4.41-.609-.92-1.614-2.036-2.27-2.534zM4.893 17.831c0 .023-.144.578-.316 1.238-.27 1.036-.316 1.273-.316 1.725 0 1.024.373 1.92 1.086 2.632.614.608 1.028.81 2.545 1.216.672.179 1.235.318 1.246.312.012-.011-.051-.08-.143-.15-.322-.25-1.362-1.296-1.707-1.725-1.05-1.302-1.867-3.026-2.223-4.664-.103-.492-.172-.717-.172-.584zm19.442 6.151c.287-.295.626-.671.752-.84.127-.161.236-.277.247-.248.023.07-.591 2.367-.74 2.755-.288.787-.995 1.545-1.788 1.938-1.074.532-1.786.544-3.55.07-1.334-.358-1.333-.36-1.31-.382a5.53 5.53 0 01.62-.145 11.493 11.493 0 005.769-3.148z" clip-rule="evenodd"></path>
+            </svg>
+          </div>
+        </div>
+        
+        <p>با ثبت ایمیل از جدیدترین تخفیف ها با خبر شوید</p>
+        <input type="email" name="email" placeholder="ایمیل">
+        <input type="submit" value="ثبت">
+        </div>
+      </div>
+      <div class="app">
+        <div class="app__center">
+          <div class="app__right">
+            <img src="./images/footer/app.png" alt="">
+            <p>دانلود اپلیکیشن دیجی کالا</p>
+          </div>
+          <div class="app__left">
+            <div>
+              <img src="./images/footer/coffe-bazzar.jpg" alt="">
+            </div>
+            <div>
+              <img src="./images/footer/myket.jpg" alt="">
+            </div>
+            <div>
+              <img src="./images/footer/sib-app.jpg" alt="">
+            </div>
+            <div>
+              <img class="more" src="./images/footer/More.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+     </div>
+     <!-- end footer -->
+    
+
+
+   </div>
+   <!--end make project-->
+ 
+   <script src="./swiper/swiper-bundle.min.js"></script>
+   <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 12.5,
+      spaceBetween: 2,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+   <script>
+    var swiper = new Swiper(".mySlider", {
+      spaceBetween: 1,
+      centeredSlides: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+
+    });
+  </script>
+   <script>
+    var swiper = new Swiper(".myamazing", {
+      slidesPerView: 7.5,
+      spaceBetween: 1,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+   <script>
+    var swiper = new Swiper(".mygrouping", {
+      slidesPerView: 6.5,
+      spaceBetween: 90,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+    <script>
+      var swiper = new Swiper(".mybrands", {
+        slidesPerView: 10,
+        spaceBetween: 7,
+        navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+        
+      });
+    </script>
+
+    
+    
+  </body>
+</html>

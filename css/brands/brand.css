@@ -1,0 +1,38 @@
+.brand{
+    width: 100%;
+    height: 270px;
+    .center__brand{
+        width: 80%;
+        height: 260px;
+        border: 2px solid lightgray;
+        border-radius: 20px;
+        margin: 0 auto;
+        & h4{
+            padding-top: 30px;
+            font-size: 20px;
+            font-family: var(--fontFamily);
+            text-align: center;
+            font-weight: bold;
+        }
+        .swiper{
+        width: 100%;
+        height: 70%;
+        padding-bottom: 30px;
+        margin-top: 50px;
+        }
+        .swiper-slide {
+            display: flex;
+            flex-flow: row;            justify-content: center;
+            align-items: center;
+        
+
+          }
+      
+          .swiper-slide img {
+            all: unset;
+            width: 110px;
+            height: 125px;
+            object-fit: cover;
+          }
+    }
+}

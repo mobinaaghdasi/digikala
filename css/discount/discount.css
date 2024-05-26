@@ -1,0 +1,17 @@
+.discount{
+    width: 100%;
+    height: 270px;
+    .discount__center{
+        width: 80%;
+        height: inherit;
+        display: flex;
+        flex-flow: row ;
+        column-gap: 20px;
+        margin: 0 auto;
+    & img{
+        width: 320px;
+        height: 240px;
+        border-radius: 20px;
+    }
+}
+}

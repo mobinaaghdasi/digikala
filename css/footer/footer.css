@@ -1,0 +1,196 @@
+.footer{
+    width: 100%;
+    height: 660px;
+    .footer1{
+        width: 100%;
+        & div{
+            width: 120px;
+            height: 60x;
+            padding-top: 30px;
+            padding-right: 30px;
+            & img{
+                width: inherit;
+                object-fit: cover;
+            }
+
+        }
+        .note{
+            width: 100%;
+            display: flex;
+            flex-flow: row;
+            column-gap: 10px;
+            & span{
+                width: 2px;
+                height: 10px;
+                background-color: lightgray;
+            }
+            & h6{
+                font-size: 12px;
+                font-family: var(--fontFamily);
+                font-weight: normal;
+            }
+        }
+       
+    }
+    .footer2{
+        width:100% ;
+        height: 130px;
+        margin: 40px auto;
+        display: flex;
+        flex-flow: row;
+        column-gap: 200px;
+        padding-right: 50px;
+        
+        & div{
+            width: 130px;
+            height: 130px;
+            & img{
+                width: 60px;
+                margin-right: 25px;
+            }
+            & h4{
+                font-size: 12px;
+                font-family: var(--fontFamily);
+                font-weight: 200;
+                text-align: start;
+            }
+        }
+    }
+    .footer3{
+        width: 100%;
+        height: 330px;
+        display: flex;
+        flex-flow: row;
+        column-gap: 100px;
+        & div{
+            width: 350px;
+            display: flex;
+            flex-flow: column;
+            row-gap: 20px;
+            & h2{
+                font-size: 16px;
+                font-family: var(--fontFamily);
+                font-weight: bold;
+                color: #2b2b2b;
+                padding-right: 30px;
+            }
+            & a{
+                font-size: 14px;
+                font-family: var(--fontFamily);
+                font-weight: 200;
+                color: #2b2b2b;
+                text-decoration: none;
+                padding-right: 30px;
+            }
+        }
+    }
+    .with-us{
+        display: flex;
+        flex-flow: column;
+        .svg{
+            display: flex;
+            flex-flow: row;
+            padding-left: 50px;
+            & svg{
+                width: 50px;
+                height: 50px;
+                color: gray;
+
+            }
+        }
+        & p{
+            font-size: 15px;
+            font-family: var(--fontFamily);
+            color: #2b2b2b;
+            font-weight: bold;
+        }
+        & [type=email]{
+            width: 200px;
+            height: 40px;
+            background-color: lightgray;
+            border: 1px solid lightgray;
+            border-radius: 10px;
+            &::placeholder{
+                font-size: 12px;
+                font-family: var(--fontFamily);
+                padding-right: 30px;
+                color: grey;
+            }
+        }
+        & [type=submit]{
+            width: 70px;
+            height: 40px;
+            border-radius: 10px;
+        
+            background-color: lightgray;
+            border: 1px solid lightgray;
+            &::placeholder{
+                font-size: 12px;
+                font-family: var(--fontFamily);
+                color: gray;
+
+            }
+
+        }
+    }
+    .app{
+        width: 100%;
+        height: 77px;
+        .app__center{
+            width: 95%;
+            height: inherit;
+            margin: 0 auto;
+            background-color: #3C4B6D;
+            border-radius: 20px;
+            display: flex;
+            flex-flow: row;
+            .app__right{
+                width: 50%;
+                height: inherit;
+                display: flex;
+                flex-flow: row;
+                align-items: center;
+                column-gap: 20px;
+                padding-right: 15px;
+            
+                & img{
+                    width: 50px;
+                    height: 50px;
+                    object-fit: cover;
+                }
+                & p{
+                    font-size: 20px;
+                    font-family: var(--fontFamily);
+                    font-weight: bold;
+                    color: white;
+                }
+            }
+            .app__left{
+                width: 50%;
+                height: inherit;
+                display: flex;
+                flex-flow: row;
+                column-gap: 20px;
+                padding-right: 200px;
+                align-items: center;
+                & div{
+                    width: 150px;
+                    height: 50px;
+        
+                    & img{
+                        width: inherit;
+                        border-radius: 5px;
+                    }
+                    
+                }
+                .more{
+                    width: 40px;
+                    height: 40px;
+                    background-color: white;
+                    
+                }
+            }
+        }
+    }
+
+}

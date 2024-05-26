@@ -1,0 +1,50 @@
+.digiclub{
+    width: 80%;
+    height: 90px;
+    background-color: #007295;
+    margin: 0 auto;
+    border-radius: 20px;
+    display: flex;
+    flex-flow: row;
+    
+    .icon{
+        & img{
+        width: 130px;
+        object-fit: cover;
+        padding-top: 30px;
+        padding-right: 50px;
+        }
+    }
+    .wrapper{
+        width: 50%;
+        margin-right: 500px;
+        padding-top: 15px;
+        display: flex;
+        flex-flow: row;
+        column-gap: 10px;
+    & div{
+        width: 300px;
+        height: 60px;
+        background-color: whitesmoke;
+        display:flex;
+        flex-flow:  row-reverse;
+    
+        & img{
+            width: 150px;
+            height: inherit;
+            object-fit: cover;
+        
+        }
+        & h6{
+        font-size: 12px;
+        font-family: var(--fontFamily);
+        color: black;
+        text-align: center;
+        padding-top: 20px;
+
+        }
+    }
+
+    
+    }
+}
