@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./swiper/swiper-bundle.min.css">
+</head>
+<body>
+    <div class="wrapper">
+        <!--header-->
+        <header>
+            <div class="header__top">
+                <img src="./images/header.jpg"alt="">
+            </div>
+            <div class="header__center">
+                <div class="header__center__logo">
+                  <a href="./index.html">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="115" height="30" viewBox="0 0 115 30">
+                        <g fill="none" fill-rule="evenodd">
+                            <g fill="#EE384E">
+                                <g>
+                                    <g>
+                                        <path d="M76.916 19.024h6.72v-8.78h-6.72c-1.16 0-2.24 1.061-2.24 2.195v4.39c0 1.134 1.08 2.195 2.24 2.195zm26.883 0h6.72v-8.78h-6.72c-1.16 0-2.24 1.061-2.24 2.195v4.39c0 1.134 1.08 2.195 2.24 2.195zM88.117 6.951v15.366c0 .484-.625 1.098-1.12 1.098l-2.24.023c-.496 0-1.12-.637-1.12-1.12v-.733l-1.017 1.196c-.31.413-1.074.634-1.597.634h-4.107c-3.604 0-6.721-3.063-6.721-6.586v-4.39c0-3.523 3.117-6.585 6.72-6.585h10.082c.495 0 1.12.613 1.12 1.097zm26.883 0v15.366c0 .484-.624 1.098-1.12 1.098l-2.24.023c-.496 0-1.12-.637-1.12-1.12v-.733l-1.017 1.196c-.31.413-1.074.634-1.597.634h-4.107c-3.604 0-6.721-3.063-6.721-6.586v-4.39c0-3.523 3.117-6.585 6.72-6.585h10.082c.495 0 1.12.613 1.12 1.097zm-74.675 3.293h-6.721c-1.16 0-2.24 1.061-2.24 2.195v4.39c0 1.134 1.08 2.195 2.24 2.195h6.72v-8.78zm4.48-3.293V23.78c0 3.523-3.117 6.22-6.72 6.22H34.62c-.515 0-1-.236-1.311-.638l-1.972-2.55c-.327-.424-.144-1.202.399-1.202h6.347c1.16 0 2.24-.696 2.24-1.83v-.365h-6.72c-3.604 0-6.72-3.063-6.72-6.586v-4.39c0-3.523 3.116-6.585 6.72-6.585h4.107c.514 0 1.074.405 1.437.731l1.177 1.098V6.95c0-.483.625-1.097 1.12-1.097h2.24c.496 0 1.12.613 1.12 1.097zM4.481 16.83c0 1.134 1.08 2.195 2.24 2.195h6.72v-8.78h-6.72c-1.16 0-2.24 1.061-2.24 2.195v4.39zM16.8 0c.497 0 1.121.613 1.121 1.098v21.22c0 .483-.624 1.097-1.12 1.097h-2.24c-.496 0-1.12-.613-1.12-1.098v-.732l-1.175 1.232c-.318.346-.932.598-1.44.598H6.722C3.117 23.415 0 20.352 0 16.829v-4.356c0-3.523 3.117-6.62 6.72-6.62h6.722V1.099c0-.485.624-1.098 1.12-1.098h2.24zm46.3 14.634L69.336 6.9c.347-.421.04-1.048-.513-1.048h-3.566c-.27 0-.525.119-.696.323l-6.314 7.727V1.098c0-.485-.625-1.098-1.12-1.098h-2.24c-.496 0-1.12.613-1.12 1.098v21.22c0 .483.624 1.097 1.12 1.097h2.24c.495 0 1.12-.614 1.12-1.098v-6.951l6.317 7.744c.17.207.428.328.7.328h3.562c.554 0 .86-.627.514-1.048l-6.24-7.756zM48.166 0c-.496 0-1.12.613-1.12 1.098v2.195c0 .484.624 1.097 1.12 1.097h2.24c.495 0 1.12-.613 1.12-1.097V1.098c0-.485-.625-1.098-1.12-1.098h-2.24zm0 5.854c-.496 0-1.12.613-1.12 1.097v15.366c0 .484.8 1.12 1.295 1.12l2.065-.022c.495 0 1.12-.614 1.12-1.098V6.951c0-.484-.625-1.097-1.12-1.097h-2.24zM21.282 0c-.495 0-1.12.613-1.12 1.098v2.195c0 .484.625 1.097 1.12 1.097h2.24c.496 0 1.12-.613 1.12-1.097V1.098c0-.485-.624-1.098-1.12-1.098h-2.24zm0 5.854c-.495 0-1.12.613-1.12 1.097v15.366c0 .484.625 1.098 1.12 1.098h2.24c.496 0 1.12-.614 1.12-1.098V6.951c0-.484-.624-1.097-1.12-1.097h-2.24zm73.556-4.756v21.22c0 .483-.625 1.097-1.12 1.097h-2.24c-.496 0-1.12-.614-1.12-1.098V1.097c0-.484.624-1.097 1.12-1.097h2.24c.495 0 1.12.613 1.12 1.098z" transform="translate(-1235 -19) translate(-238) translate(1473 19)"/>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                  </a>
+
+                </div>
+                <div class="header__center__search">
+                    <input type="text" name="search" placeholder="جستجو" />
+                </div>
+                <div class="header__center__login">
+                    <a href="./login.html">
+                        <svg style="width: 24px; height: 24px; fill: var(--color-icon-high-emphasis);">
+                            <path fill-rule="evenodd" d="M16 15h-2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V7a2 2 0 012-2h6a2 2 0 012 2v2h2V7a4 4 0 00-4-4H6a4 4 0 00-4 4v10a4 4 0 004 4h6a4 4 0 004-4v-2zm6-4H9.414l2.293-2.293-1.414-1.414-4 4a1 1 0 000 1.414l4 4 1.414-1.414L9.414 13H22v-2z" clip-rule="evenodd"></path>
+                        </svg>
+                        ورود <span></span>ثبت نام 
+                    </a>
+                    <span class="line"></span>
+                 <a class="cart" href="#">
+                    <svg style="width: 24px; height: 24px; fill: var(--color-icon-high-emphasis);">
+                        <path fill-rule="evenodd" d="M20 4h2V2h-3a1 1 0 00-1 1v1H3a1 1 0 00-.995 1.1l1 10A1 1 0 004 16h15a1 1 0 001-1V4zm-2 17a2 2 0 110-4 2 2 0 010 4zM5 21a2 2 0 110-4 2 2 0 010 4zm13-7V6H4.105l.8 8H18z" clip-rule="evenodd"></path>
+                    </svg>
+                 </a>
+                </div>
+            </div>
+            <div class="header__menu">
+                <div class="right">
+                    <nav>
+                        <div><a href="#" class="active">
+    
+                            <svg style="width: 20px; height: 20px; fill: var(--color-icon-high-emphasis);">
+                                <path fill-rule="evenodd" d="M19 8V6H5v2h14zm0 3v2H5v-2h14zm0 5v2H5v-2h14z" clip-rule="evenodd"></path>
+                            </svg>
+                         دسته بندی کالاها
+                        </a>
+                      </div>
+                        <div><a href="./amazing.html">شگفت انگیزها</a></div>
+                        <div><a href="#">سوپر مارکت</a></div>
+                        <div><a href="#">کارت هدیه</a></div>
+                        <div><a href="#">پرفروش ترین ها</a></div>
+                        <div><a href="#"> تخفیف هاوپیشنهادها</a></div>
+                        <div><a href="#"> سوالی دارید</a></div>
+                        <div><a href="#">در دیجی کالا بفروشید!</a></div>
+                    </nav>
+                </div>
+                <div class="left">
+                <h5>
+                    <svg style="width: 20px; height: 20px; fill: var(--color-icon-high-emphasis);">
+                        <path fill-rule="evenodd" d="M4 9.611C4 5.391 7.59 2 12 2s8 3.39 8 7.611c0 2.818-1.425 5.518-3.768 8.034a23.496 23.496 0 01-2.514 2.322c-.517.413-.923.706-1.166.867L12 21.2l-.552-.366c-.243-.16-.65-.454-1.166-.867a23.499 23.499 0 01-2.514-2.322C5.425 15.129 4 12.428 4 9.61zm8.47 8.794c.784-.627 1.569-1.34 2.298-2.124C16.8 14.101 18 11.827 18 9.611 18 6.521 15.33 4 12 4S6 6.522 6 9.611c0 2.215 1.2 4.49 3.232 6.67A21.536 21.536 0 0012 18.769c.148-.111.305-.233.47-.364zM12 14a4.001 4.001 0 010-8 4.001 4.001 0 010 8zm0-2a2.001 2.001 0 000-4 2.001 2.001 0 000 4z" clip-rule="evenodd"></path>
+                    </svg>
+                    لطفا شهر خودرا انتخاب کنید
+                </h5>
+                <div class="show">
+                  <h5>لطفا شهر خودرا انتخاب کنید</h5>
+                </div>
+                </div>
+            </div>
+        
+    
+        </header>
+        <!--end header-->
+        <!-- shegeftangiz -->
+        <div class="shegeftangiz">
+            <div class="shegeftangiz__picture">
+            </div>
+                <!--slider-->
+    <div class="slider">
+        <div class="swiper mySlider">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="./images/shegeftangiz/1.jpg" alt="">
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/shegeftangiz/2.jpg" alt="">
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/shegeftangiz/3.png" alt="">
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/shegeftangiz/4.jpg" alt="">
+              </div>
+            </div>
+            <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          
+    </div>
+  </div>
+</div>
+    <!--end slider-->
+      <!-- amazing today -->
+      <div class="today">
+        <h1>
+          <svg class="white" style="width: 10px; height: 10px; fill: var(--color-icon-white);">
+            <path fill-rule="evenodd" d="M21.448 9.191a.641.641 0 01.589-.406.64.64 0 01.587.406l2.188 5.202a10 10 0 004.892 5.138l4.726 2.267c.232.112.38.357.38.627a.692.692 0 01-.38.628l-4.726 2.267a10 10 0 00-4.892 5.138l-2.189 5.202a.64.64 0 01-.586.406.641.641 0 01-.588-.406l-2.19-5.202a10 10 0 00-4.891-5.137l-4.726-2.268a.695.695 0 01-.38-.628c0-.27.15-.515.38-.627l4.726-2.267a10 10 0 004.892-5.138l2.188-5.202zM11.092 27.515a.194.194 0 01.353 0 7.081 7.081 0 003.548 3.56.195.195 0 010 .355 7.08 7.08 0 00-3.548 3.558.194.194 0 01-.353 0 7.08 7.08 0 00-3.549-3.558.197.197 0 01-.113-.179c0-.076.045-.145.114-.176a7.081 7.081 0 003.548-3.56zM32.652 9.86c.03-.068.1-.113.176-.113.075 0 .145.045.177.113a7.074 7.074 0 003.547 3.56.195.195 0 010 .355 7.074 7.074 0 00-3.547 3.56.195.195 0 01-.177.115.192.192 0 01-.176-.115 7.082 7.082 0 00-3.549-3.56.195.195 0 010-.355 7.081 7.081 0 003.549-3.56zM9.298 5.115a.318.318 0 01.575 0l.203.44a10 10 0 005.066 4.973l.51.223a.305.305 0 01.187.28.305.305 0 01-.187.28l-.51.224a10 10 0 00-5.066 4.973l-.203.44a.318.318 0 01-.574 0l-.203-.44a10 10 0 00-5.066-4.973l-.51-.224a.305.305 0 01-.187-.28c0-.121.074-.231.187-.28l.51-.223a10 10 0 005.066-4.973l.203-.44z" clip-rule="evenodd"></path>
+          </svg>
+      شگفت انگیز روز
+       </h1>
+       <div class="today__center">
+        <!-- Swiper -->
+  <div class="swiper myToday">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="today__right">
+         <img src="./images/today/1.jpg" alt="">
+        </div>
+         <div class="today__left">
+          <p>باتری قلمی پلاس الکالاین کملیون مدل LR6 بسته 2 عددی</p>
+          <div class="star">
+            <div class="circle">
+              <div></div>
+              <h2>مشکی</h2>
+            </div>
+            <div class="takhfif">
+              <span>10%</span>
+              <div class="gheimat">
+                <h3>3490000تومان</h3>
+                <h4>5470000</h4>
+              </div>
+            </div>
+            
+          </div>
+          
+         </div>
+      </div>
+      <div class="swiper-slide">
+        
+        <div class="today__right">
+          <img src="./images/today/2.jpg" alt="">
+         </div>
+          <div class="today__left">
+           <p>باتری قلمی پلاس الکالاین کملیون مدل LR6 بسته 2 عددی</p>
+           <div class="star">
+             <div class="circle">
+               <div></div>
+               <h2>مشکی</h2>
+             </div>
+             <div class="takhfif">
+               <span>10%</span>
+               <div class="gheimat">
+                 <h3>3490000تومان</h3>
+                 <h4>5470000</h4>
+               </div>
+             </div>
+             
+           </div>
+           
+          </div>
+    
+      </div>
+      <div class="swiper-slide">
+        <div class="today__right">
+          <img src="./images/today/1.jpg" alt="">
+         </div>
+          <div class="today__left">
+           <p>باتری قلمی پلاس الکالاین کملیون مدل LR6 بسته 2 عددی</p>
+           <div class="star">
+             <div class="circle">
+               <div></div>
+               <h2>مشکی</h2>
+             </div>
+             <div class="takhfif">
+               <span>10%</span>
+               <div class="gheimat">
+                 <h3>3490000تومان</h3>
+                 <h4>5470000</h4>
+               </div>
+             </div>
+             
+           </div>
+           
+          </div>
+       </div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+   
+  </div>
+       </div>
+      </div>
+      <!-- end amazing today -->
+            
+         
+            <!-- grouping amazing -->
+      <div class="grouping__amazing">
+        <!-- Swiper -->
+<div class="swiper mygrouping1">
+ <div class="swiper-wrapper">
+     <div class="swiper-slide">
+         <div class="text">
+           <img src="./images/grouping/bag.png" alt="">
+           <p> همه دسته بندی ها</p>
+           
+         </div>
+       </div>
+   <div class="swiper-slide">
+     <div class="text">
+       <img src="./images/grouping/aba1e5dca8958ac1176e25cd194ff8ac.png" alt="">
+       <p> موبایل</p>
+       
+     </div>
+   </div>
+   <div class="swiper-slide"><div class="text">
+     <img src="./images/grouping/2.png" alt="">
+     <p>کالای دیجیتال</p>
+   </div></div>
+   <div class="swiper-slide"><div class="text">
+     <img src="./images/grouping/3.png" alt="">
+     <p>خانه و اشپز خانه</p>
+   </div></div>
+   <div class="swiper-slide"><div class="text">
+     <img src="./images/grouping/4.png" alt="">
+     <p> لوازم خانگی برقی</p>
+   </div></div>
+   <div class="swiper-slide"><div class="text">
+     <img src="./images/grouping/5.png" alt="">
+     <p>مد و پوشاک</p>
+   </div></div>
+   <div class="swiper-slide">
+     <div class="text">
+       <img src="./images/grouping/6.png" alt="">
+       <p> ساعت طلاوجواهرات</p>
+     </div>
+   </div>
+   <div class="swiper-slide"><div class="text">
+     <img src="./images/grouping/7.png" alt="">
+     <p> زیبایی و سلامت</p>
+   </div></div>
+   <div class="swiper-slide">
+     <div class="text">
+       <img src="./images/grouping/14.png" alt="">
+       <p> کالاهای سوپرمارکتی</p>
+     </div>
+   </div>
+   <div class="swiper-slide"> 
+     <div class="text">
+       <img src="./images/grouping/8.png" alt="">
+       <p> کتاب لوازم التحریر و هنر</p>
+     </div>
+   </div>
+   <div class="swiper-slide">
+     <div class="text">
+       <img src="./images/grouping/9.png" alt="">
+       <p> اسباب بازی کودک و نوزاد</p>
+     </div>
+   </div>
+   <div class="swiper-slide"><div class="text">
+     <img src="./images/grouping/10.png" alt="">
+     <p> ابزار الات و تجهیزات</p>
+   </div></div>
+   <div class="swiper-slide">
+     <div class="text">
+       <img src="./images/grouping/11.png" alt="">
+       <p>خودرو و موتور سیکلت</p>
+     </div>
+   </div>
+   <div class="swiper-slide">
+     <div class="text">
+       <img src="./images/grouping/12.png" alt="">
+       <p>ورزش و سفر</p>
+     </div>
+   </div>
+   <div class="swiper-slide">
+     <div class="text">
+       <img src="./images/grouping/13.png" alt="">
+       <p>محصولات بومی و محلی</p>
+ </div>
+ </div>
+ </div>
+ <div class="swiper-button-next"></div>
+ <div class="swiper-button-prev"></div>
+</div>
+
+
+   <!-- end grouping amazing -->
+   <!-- choise -->
+   <div class="amazing_choise">
+    <div class="amazing__center">
+      <div class="swiper myamazing">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide active__amazing">
+            <img src="./images/choise/choise.png" alt="">
+            <img src="./images/choise/General.png" alt="">
+          </div>
+          <div class="swiper-slide">
+            <h2>پیشنهاد شگفت انگیز</h2>
+            <img src="./images/choise/1.jpg" class="image__amazing" alt="">
+            <p>کرم ابرسان و ژل لیفتینگ الوورا</p>
+            <div class="price">
+              <span>3490000</span>
+              <span class="percentage">4%</span>
+            </div>
+            <div class="discount">4095000</div>
+          </div>
+          <div class="swiper-slide">
+            <h2>پیشنهاد شگفت انگیز</h2>
+  
+            <img src="./images/choise/2.jpg" class="image__amazing" alt="">
+            <p>گوشی هواوی مدل نوا</p>
+            <div class="price">
+              <span>3490000</span>
+              <span class="percentage">4%</span>
+            </div>
+            <div class="discount">4095000</div>
+          </div>
+          <div class="swiper-slide">
+            
+            <h2>پیشنهاد شگفت انگیز</h2>
+            <img src="./images/choise/3.jpg" class="image__amazing" alt="">
+            <p>اون توستر مدل تولیپس</p>
+            <div class="price">
+              <span>3490000</span>
+              <span class="percentage">4%</span>
+            </div>
+            <div class="discount">4095000</div>
+          </div>
+          <div class="swiper-slide">
+            
+            <h2>پیشنهاد شگفت انگیز</h2>
+            <img src="./images/choise/5.png" class="image__amazing" alt="">
+            <p>ماشین اصلاح موی سر و صورت</p>
+            <div class="price">
+              <span>3490000</span>
+              <span class="percentage">4%</span>
+            </div>
+            <div class="discount">4095000</div>
+          </div>
+          <div class="swiper-slide">
+            
+            <h2>پیشنهاد شگفت انگیز</h2>
+            <img src="./images/choise/6.jpg" class="image__amazing" alt="">
+            <p>عروسک کوکی مدل جوجه</p>
+            <div class="price">
+              <span>3490000</span>
+              <span class="percentage">4%</span>
+            </div>
+            <div class="discount">4095000</div>
+          </div>
+          <div class="swiper-slide">
+            
+            <h2>پیشنهاد شگفت انگیز</h2>
+            <img src="./images/choise/7.jpg" class="image__amazing" alt="">
+            <p>مدم روتر بی سیم با قابلیت های فراوان</p>
+            <div class="price">
+              <span>3490000</span>
+              <span class="percentage">4%</span>
+            </div>
+            <div class="discount">4095000</div>
+          </div>
+          <div class="swiper-slide">
+            
+            <h2>پیشنهاد شگفت انگیز</h2>
+            <img src="./images/choise/8.jpg" class="image__amazing" alt="">
+            <p>اسپیکر بلوتوثی قابل حمل حامل کریتو</p>
+            <div class="price">
+              <span>3490000</span>
+              <span class="percentage">4%</span>
+            </div>
+            <div class="discount">4095000</div>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+      </div>
+    </div>
+  </div>
+  <!--end choise-->
+ 
+        <!--supermarket-->
+    <div class="supermarket">
+        <div class="market__center__amazing">
+        <div class="market__right">
+          <img src="./images/supermarket/fresh.png" alt="">
+          <img src="./images/svg/fresh.svg" alt="">
+        <div> <h4> تا 25% تخفیف</h4> </div>
+      </div>
+        <div class="market__left">
+          <div class="picture">
+            <img src="./images/supermarket/soda1.png" alt="">
+          </div>
+          <div class="picture">
+            <img src="./images/supermarket/soda2.png" alt="">
+          </div>
+          <div class="picture">
+            <img src="./images/supermarket/picture3.png" alt="">
+          </div>
+          <div class="picture">
+            <img src="./images/supermarket/picture4.png" alt="">
+          </div>
+          <div class="picture">
+            <img src="./images/supermarket/picture5.png" alt="">
+          </div>
+          <div class="picture">
+            <img src="./images/supermarket/picture6.png" alt="">
+          </div>
+          <div class="more"> <a href="#"> بیش از 90 کالا</a></div>
+        </div>
+      </div>
+
+      <!--end supermarket-->
+      <!-- Allamazing -->
+      <div class="allamazing">
+        <div class="allamazing__right">
+          <div class="filter">
+            <h1> فیلترها</h1>
+           <h2>برند</h2>
+           <hr>
+           <h2> ارسال فردا</h2>
+           <hr>
+           <h2>فقط سوپر مارکتی</h2>
+           <hr>
+           <h2>ارسال فروشنده</h2>
+           <hr>
+           <h2> محدوده قیمت</h2>
+           <hr>
+           <h2>فقط کالاهای موجود</h2>
+           <hr>
+           <h2>فقط کالاهای موجود در انبار دیجی کالا</h2>
+           <hr>
+           <h2>فروشنده</h2>
+          </div>
+        </div>
+        <div class="allamazing__left">
+          <div class="moratab">
+            <svg style="width: 24px; height: 24px; fill: var(--color-icon-high-emphasis);">
+              <path fill-rule="evenodd" d="M6 15.793L3.707 13.5l-1.414 1.414 4 4a1 1 0 001.414 0l4-4-1.414-1.414L8 15.793V5H6v10.793zM22 5H10v2h12V5zm0 4H12v2h10V9zm0 4h-8v2h8v-2zm-6 4h6v2h-6v-2z" clip-rule="evenodd"></path>
+            </svg>
+            <h6>مرتب سازی:</h6>
+            <p>بیش ترین تخفیف</p>
+            <p>پر بازدیدترین</p>
+            <p>جدیدترین</p>
+            <p>پرفروش ترین</p>
+            <p>ارزان ترین</p>
+            <p>گران ترین</p>
+            <p>سریع ترین ارسال</p>
+            <p>پیشنهاد خریداران</p>
+          </div>
+          <div class="mahsol">
+            <div class="mahsoll">
+          <h4>پیشنهاد شگفت انگیز</h4>
+          <img src="./images/allamazing/1.jpg" alt="">
+          <p>اسپری ضد تعریق مردانه کاسپین مدل ultimate dry حجم 150 میلی لیتر</p>
+            <h1>ارسال سریع سوپر مارکتی</h1>
+        
+              <h5>تنها یک عدد باقی مانده است</h5>
+              <div class="price">
+                <span>3490000تومان</span>
+                <span class="percentage">4%</span>
+              </div>
+              <div class="discount">4095000</div>
+            </div>
+            <div class="mahsoll">
+              <h4>پیشنهاد شگفت انگیز</h4>
+              <img src="./images/allamazing/2.jpg" alt="">
+              <p>اسپری ضد تعریق مردانه کاسپین مدل ultimate dry حجم 150 میلی لیتر</p>
+                <h1>ارسال سریع سوپر مارکتی</h1>
+            
+                  <h5>تنها یک عدد باقی مانده است</h5>
+                  <div class="price">
+                    <span>3490000تومان</span>
+                    <span class="percentage">4%</span>
+                  </div>
+                  <div class="discount">4095000</div>
+                </div>
+                <div class="mahsoll">
+                  <h4>پیشنهاد شگفت انگیز</h4>
+                  <img src="./images/allamazing/4.jpg" alt="">
+                  <p>اسپری ضد تعریق مردانه کاسپین مدل ultimate dry حجم 150 میلی لیتر</p>
+                    <h1>ارسال سریع سوپر مارکتی</h1>
+                
+                      <h5>تنها یک عدد باقی مانده است</h5>
+                      <div class="price">
+                        <span>3490000تومان</span>
+                        <span class="percentage">4%</span>
+                      </div>
+                      <div class="discount">4095000</div>
+                    </div>
+                    <div class="mahsoll">
+                      <h4>پیشنهاد شگفت انگیز</h4>
+                      <img src="./images/allamazing/1.jpg" alt="">
+                      <p>اسپری ضد تعریق مردانه کاسپین مدل ultimate dry حجم 150 میلی لیتر</p>
+                        <h1>ارسال سریع سوپر مارکتی</h1>
+                    
+                          <h5>تنها یک عدد باقی مانده است</h5>
+                          <div class="price">
+                            <span>3490000تومان</span>
+                            <span class="percentage">4%</span>
+                          </div>
+                          <div class="discount">4095000</div>
+                        </div>
+                        <div class="mahsoll">
+                          <h4>پیشنهاد شگفت انگیز</h4>
+                          <img src="./images/allamazing/2.jpg" alt="">
+                          <p>اسپری ضد تعریق مردانه کاسپین مدل ultimate dry حجم 150 میلی لیتر</p>
+                            <h1>ارسال سریع سوپر مارکتی</h1>
+                        
+                              <h5>تنها یک عدد باقی مانده است</h5>
+                              <div class="price">
+                                <span>3490000تومان</span>
+                                <span class="percentage">4%</span>
+                              </div>
+                              <div class="discount">4095000</div>
+                            </div>
+                            <div class="mahsoll">
+                              <h4>پیشنهاد شگفت انگیز</h4>
+                              <img src="./images/allamazing/3.jpg" alt="">
+                              <p>اسپری ضد تعریق مردانه کاسپین مدل ultimate dry حجم 150 میلی لیتر</p>
+                                <h1>ارسال سریع سوپر مارکتی</h1>
+                            
+                                  <h5>تنها یک عدد باقی مانده است</h5>
+                                  <div class="price">
+                                    <span>3490000تومان</span>
+                                    <span class="percentage">4%</span>
+                                  </div>
+                                  <div class="discount">4095000</div>
+                                </div>
+                                <div class="mahsoll">
+                                  <h4>پیشنهاد شگفت انگیز</h4>
+                                  <img src="./images/allamazing/4.jpg" alt="">
+                                  <p>اسپری ضد تعریق مردانه کاسپین مدل ultimate dry حجم 150 میلی لیتر</p>
+                                    <h1>ارسال سریع سوپر مارکتی</h1>
+                                
+                                      <h5>تنها یک عدد باقی مانده است</h5>
+                                      <div class="price">
+                                        <span>3490000تومان</span>
+                                        <span class="percentage">4%</span>
+                                      </div>
+                                      <div class="discount">4095000</div>
+                                    </div>
+                                    <div class="mahsoll">
+                                      <h4>پیشنهاد شگفت انگیز</h4>
+                                      <img src="./images/allamazing/1.jpg" alt="">
+                                      <p>اسپری ضد تعریق مردانه کاسپین مدل ultimate dry حجم 150 میلی لیتر</p>
+                                        <h1>ارسال سریع سوپر مارکتی</h1>
+                                    
+                                          <h5>تنها یک عدد باقی مانده است</h5>
+                                          <div class="price">
+                                            <span>3490000تومان</span>
+                                            <span class="percentage">4%</span>
+                                          </div>
+                                          <div class="discount">4095000</div>
+                                        </div>
+                                        <div class="mahsoll">
+                                          <h4>پیشنهاد شگفت انگیز</h4>
+                                          <img src="./images/allamazing/2.jpg" alt="">
+                                          <p>اسپری ضد تعریق مردانه کاسپین مدل ultimate dry حجم 150 میلی لیتر</p>
+                                            <h1>ارسال سریع سوپر مارکتی</h1>
+                                        
+                                              <h5>تنها یک عدد باقی مانده است</h5>
+                                              <div class="price">
+                                                <span>3490000تومان</span>
+                                                <span class="percentage">4%</span>
+                                              </div>
+                                              <div class="discount">4095000</div>
+                                            </div>
+                                            <div class="mahsoll">
+                                              <h4>پیشنهاد شگفت انگیز</h4>
+                                              <img src="./images/allamazing/3.jpg" alt="">
+                                              <p>اسپری ضد تعریق مردانه کاسپین مدل ultimate dry حجم 150 میلی لیتر</p>
+                                                <h1>ارسال سریع سوپر مارکتی</h1>
+                                            
+                                                  <h5>تنها یک عدد باقی مانده است</h5>
+                                                  <div class="price">
+                                                    <span>3490000تومان</span>
+                                                    <span class="percentage">4%</span>
+                                                  </div>
+                                                  <div class="discount">4095000</div>
+                                                </div>
+                                                <div class="mahsoll">
+                                                  <h4>پیشنهاد شگفت انگیز</h4>
+                                                  <img src="./images/allamazing/4.jpg" alt="">
+                                                  <p>اسپری ضد تعریق مردانه کاسپین مدل ultimate dry حجم 150 میلی لیتر</p>
+                                                    <h1>ارسال سریع سوپر مارکتی</h1>
+                                                
+                                                      <h5>تنها یک عدد باقی مانده است</h5>
+                                                      <div class="price">
+                                                        <span>3490000تومان</span>
+                                                        <span class="percentage">4%</span>
+                                                      </div>
+                                                      <div class="discount">4095000</div>
+                                                    </div>
+                                                    <div class="mahsoll">
+                                                      <h4>پیشنهاد شگفت انگیز</h4>
+                                                      <img src="./images/allamazing/1.jpg" alt="">
+                                                      <p>اسپری ضد تعریق مردانه کاسپین مدل ultimate dry حجم 150 میلی لیتر</p>
+                                                        <h1>ارسال سریع سوپر مارکتی</h1>
+                                                    
+                                                          <h5>تنها یک عدد باقی مانده است</h5>
+                                                          <div class="price">
+                                                            <span>3490000تومان</span>
+                                                            <span class="percentage">4%</span>
+                                                          </div>
+                                                          <div class="discount">4095000</div>
+                                                        </div>
+                                  
+
+  
+            
+        
+
+
+
+           
+            </div>
+           
+          </div>
+      </div>
+
+        </div>
+      </div>
+      <!-- end Allamazing -->
+
+  
+    <script src="./swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySlider", {
+          spaceBetween: 1,
+          centeredSlides: true,
+          autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+    
+        });
+      </script>
+       <script>
+        var swiper = new Swiper(".myToday", {
+          slidesPerView: 2.5,
+          spaceBetween: 20,
+          
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+      </script>
+      <script>
+        var swiper = new Swiper(".mygrouping1", {
+          slidesPerView: 12,
+          spaceBetween: 20,
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+      </script>
+      <script>
+        var swiper = new Swiper(".myamazing", {
+          slidesPerView: 7,
+          spaceBetween: 4,
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+      </script>
+</body>
+</html>

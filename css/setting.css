@@ -6,6 +6,7 @@
 }
 :root{
     --fontFamily:IranYekan;
+    
 }
 @font-face {
     font-family: IranYekan;
@@ -13,4 +14,11 @@
     src: url('../fonts/IRANYekanWeb.ttf');
     src: url('../fonts/IRANYekanWeb.woff');
     src: url('../fonts/IRANYekanWeb.woff2');
+}
+@font-face{
+    font-family: nazanin;
+    src: url('../fonts/BNazanin.eot');
+    src: url('../fonts/BNazanin.ttf');
+    src: url('../fonts/BNazanin.woff');
+    src: url('../fonts/BNazanin.woff2');
 }

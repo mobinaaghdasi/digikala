@@ -16,4 +16,10 @@
 @import"./readings/reading.css";
 @import"./footer/footer.css";
 @import"./bestsell/bestsell.css";
-@import"./login.css/login.css"
+@import"./login.css/login.css";
+@import"./shegeftangiz/shegeftangiz.css";
+@import"./shegeftangiz/dastebandi.css";
+@import"./shegeftangiz/choise.css";
+@import"./shegeftangiz/allamazing.css";
+@import"./shegeftangiz/today.css";
+@import"./electronic/electronic.css"

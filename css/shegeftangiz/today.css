@@ -1,0 +1,106 @@
+.today{
+    width: 95%;
+    height:340px ;
+    margin: 0 auto;
+    background-image: url(../../images/svg/deal-pattern.svg);
+    background-color: #E4123C;
+    & h1{
+        display: flex;
+        flex-flow: row;
+        align-items: center;
+        column-gap: 2px;
+        font-size: 16px;
+        font-family: var(--fontFamily);
+        height: 50px;
+        padding-right: 20px;
+    
+        color: whitesmoke;
+        .white{
+            width: 15px !important;
+            height: 18px !important;
+            fill: whitesmoke !important;
+            
+        
+            
+        }
+    }
+    .today__center{
+        width: 95%;
+        height: 260px;
+        margin:  10px auto;
+       
+        .swiper-slide{
+            display: flex;
+            flex-flow: row;
+            width: 650px !important;
+            border-radius: 10px;
+            .today__right{
+            & img{
+                all: unset;
+                width: 120px;
+                height: 200px;
+                object-fit: cover;
+
+            }
+        }
+        .today__left{
+           
+           padding-right: 40px;
+
+           
+            & p{
+                font-family: var(--fontFamily);
+                font-size: 12px;
+                text-align: right;
+
+            }
+            .circle{
+                display: flex;
+                flex-flow: row;
+            padding-top: 30px;
+            column-gap: 10px;
+             align-items: center;
+              & div{
+                width: 10px;
+                height: 12px;
+                border-radius: 50%;
+                background-color: black;
+              }
+              & h2{
+                font-size: 14px;
+                font-family: var(--fontFamily);
+                padding-bottom: 2px;
+              }
+            }
+            .takhfif{
+                display: flex;
+                flex-flow: row;
+                column-gap: 250px;
+                padding-top: 30px;
+                & span{
+                    width: 40px;
+                    height: 20px;
+                    border-radius: 20px;
+                    background-color: rgb(212, 19, 19);
+                    font-size: 14px;
+                    color: whitesmoke;
+                    line-height: 20px;
+                }
+                .gheimat{
+                    display: flex;
+                    flex-flow: column;
+                    row-gap: 10px;
+                    font-size: 16px;
+                    font-family: nazanin;
+                    & h4{
+                        text-decoration: line-through;
+                        color: darkgray;
+                    }
+                }
+            
+            }
+        }
+        }
+
+    }
+}
